@@ -1,0 +1,165 @@
+:root {
+    --color-rose-800: #7a284e;
+    --color-rose-50: #fff7fb;
+    --color-stone-900: #312e2c;
+    --color-stone-600: #5f564d;
+    --color-stone-150: #e3ddd7;
+    --color-stone-100: #f3e5d7;
+    --color-brown-800: #854632;
+    --space-1600: 128px;
+    --space-600: 48px;
+    --space-500: 40px;
+    --space-400: 32px;
+    --space-300: 24px;
+    --space-200: 16px;
+    --space-150: 12px;
+    --space-100: 8px;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf) format("truetype-variations");
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: "YoungSerif";
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+.font-1 {
+    font-family: "YoungSerif";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.font-2 {
+    font-family: "YoungSerif";
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.font-3 {
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 600;
+    font-weight: 400;
+}
+
+.font-4 {
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.font-4-bold {
+    font-family: "Outfit";
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+body {
+    background-color: var(--color-stone-100);
+    padding: var(--space-1600) var(--space-600);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-card {
+    background-color: white;
+    padding: var(--space-500);
+    border-radius: 24px;
+    width: 736px;
+    color: var(--color-stone-600);
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.top-image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-bottom: var(--space-500);
+}
+
+.chapter {
+    gap: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.preparation-container {
+    padding: var(--space-300);
+    background-color: var(--color-rose-50);
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: var(--space-200);   
+    margin-bottom: var(--space-200);   
+    border-radius: 12px;
+}
+.preparation-container h3 {
+    margin-bottom: var(--space-200);
+    color: var(--color-rose-800);
+}
+
+.preparation-container li::marker {
+    color: var(--color-rose-800);
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--color-stone-150);
+}
+
+h1 {
+    color: var(--color-stone-900);
+    margin-bottom: var(--space-500);
+}
+
+h2 {
+    color: var(--color-brown-800);
+}
+
+li {
+    padding-left: var(--space-100);
+    margin-top: var(--space-150);
+}
+
+li::marker {
+    color: var(--color-brown-800);
+    font-weight: 700;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: var(--space-300);
+}
+
+.nutrition-table tr {
+  border-bottom: 1px solid var(--color-stone-150); /* dünne graue Linie */
+}
+
+.nutrition-table tr:last-child {
+  border-bottom: none;
+}
+
+.nutrition-table td {
+  padding: var(--space-200) 0;
+  color: #6B6B6B; /* light grey text */
+}
+
+.nutrition-table .label {
+  text-align: left;
+}
+
+.nutrition-table .value {
+  text-align: left;
+  color: var(--color-brown-800)
+}
