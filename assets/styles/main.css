@@ -72,7 +72,7 @@ body {
     background-color: white;
     padding: var(--space-500);
     border-radius: 24px;
-    width: 736px;
+    max-width: 763px;
     color: var(--color-stone-600);
     display: flex;
     flex-direction: column;
