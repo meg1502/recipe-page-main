@@ -62,7 +62,7 @@
 
 body {
     background-color: var(--color-stone-100);
-    padding: var(--space-1600) var(--space-600);
+    padding: var(--space-600) var(--space-600) var(--space-1600);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,4 +162,31 @@ li::marker {
 .nutrition-table .value {
   text-align: left;
   color: var(--color-brown-800)
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .recipe-card {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  h1 {
+    line-height: 100%;
+  }
+
+  .top-image {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .text-content {
+    padding: var(--space-500) var(--space-400);
+
+  }
+
 }
