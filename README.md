@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/meg1502/recipe-page-main](https://github.com/meg1502/recipe-page-main)
+- Live Site URL: [https://recipe-page-main-lake-omega.vercel.app/](https://recipe-page-main-lake-omega.vercel.app/)
 
 ## My process
 
@@ -79,9 +79,8 @@ In future projects, I would like to explore CSS Grid for more complex layouts an
 
 ## Author
 
-- Website - [Your Name](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [meg1502](https://meg1502.github.io)
+- Frontend Mentor - [@meg1502](https://www.frontendmentor.io/profile/meg1502)
 
 ## Acknowledgments
 
